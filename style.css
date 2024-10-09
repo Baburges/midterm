@@ -1,0 +1,317 @@
+body{
+    font-family:Arial;
+    background-color:rgb(53, 51, 51);
+    color:white;
+
+}
+.page-wrapper{
+    padding-left:70px;
+    padding-right:70px;
+}
+#home{
+    color:lightslategray;
+    text-decoration:none;
+    padding:10px;
+}
+#work{
+    color:lightslategray;
+    text-decoration:none;
+    padding:10px;
+}
+#about-me{
+    color:lightslategray;
+    text-decoration:none;
+    padding:10px;
+}
+#contacts{
+    color:lightslategray;
+    text-decoration:none;
+    padding:10px;
+}
+.active{
+    color:lightslategray;
+    text-decoration:none;
+    padding:10px;
+}
+.logo{
+    font-weight:bold;
+}
+.logo img{
+    height:10px;
+    width:10px;
+}
+
+.sidebar{
+    left:20px;
+    top:30%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+.vertical-line{
+    border-left:2px solid lightslategray;
+    height:57px;
+    margin-right:10px;
+    margin-left:15px;
+    color:lightslategray;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.vertical-line .links{
+    flex-direction: column;;
+}
+.links img{
+    width:20px;
+    height:20px;
+    display:flex;
+}
+
+.navbar{
+    background-color: rgb(53, 51, 51);
+    
+    color:lightslategray;
+    
+}
+.navbar a{
+    float:left;
+    padding:14px 16px;
+    text-align:center;
+    color:lightslategray;
+    font-size:17px;
+}
+.navbar img{
+    height:20px;
+    width:20px;
+    margin-top:20px;
+}
+.topnav-right{
+    float:right;
+   
+}
+.about{
+    margin-right:100px;
+    display:block;
+    color:lightslategray;
+}
+.purple{
+    color:purple;
+}
+
+
+.white{
+    color:white;
+}
+.rtl{
+    direction:right;
+    text-indent:50px;
+}
+.gray{
+    color:lightslategray;
+}
+.image-right{
+    float:right;
+    height:200px;
+    width:300px;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    color:white;
+    grid-column-gap:10px;
+   
+}  
+.card1{
+    grid-column-start:1;
+    grid-column-end:1;
+    border:1px;
+    border-color:white;
+    border-style:solid;
+    padding:5px;
+
+}
+.card2{
+    grid-column-start:2;
+    grid-column-end:2;
+    border:1px;
+    border-color:white;
+    border-style:solid;
+    padding:5px;
+}
+.card3{
+    grid-column-start:3;
+    grid-column-end:3;
+    border:1px;
+    border-color:white;
+    border-style:solid;
+    padding:5px;
+}
+.card4{
+    grid-column-start:4;
+    grid-column-end:4;
+    border:1px;
+    border-color:white;
+    border-style:solid;
+    padding:5px;
+}
+.card5{
+    grid-column-start:5;
+    grid-column-end:5;
+    border:1px;
+    border-color:white;
+    border-style:solid;
+    padding:5px;
+}
+/*I used stackoverflow to break box after the words end*/
+.info-box{
+    display: flex;
+    flex-wrap:wrap;
+    max-width:600px;
+    gap:20px;
+    color:lightslategray;
+}
+.box{
+    padding:10px 20px;
+    border-radius:1px;
+    border-color:lightslategray;
+    border-style:solid;
+    box-shadow:0px 4px 6px rgba(0,0,0,0.1);
+}
+footer{
+    padding:20px;
+    border-top:1px solid white;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    max-width:900px;
+    color:white;
+}
+.right{
+    text-align:right;
+}
+.footer-left{
+    display:flex;
+    align-items:center;
+}
+
+.footer-info{
+    margin-left:10px;
+}
+.footer-info i{
+    font-size:18px;
+    margin-right:8px;
+}
+.footer-container img{
+    width:30px;
+    height:30px;
+}
+.name{
+    font-weight:bold;
+    margin-right:10px;
+}
+.email{
+    color:lightslategray;
+}
+.name img{
+    height:15px;
+    width:15px;
+}
+.media-title{
+    margin-bottom:5px;
+    display:block;
+    
+}
+.grid-container2{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    color:lightslategray;
+}
+.media1{
+    grid-column-start:1;
+    grid-column-end:1;
+    border:1px;
+    color:white;
+    font:bold;
+}
+.media2{
+    grid-column-start:2;
+    grid-column-end:2;
+    border:1px;
+    color:lightslategray;
+  
+}
+.media1 img{
+    height:20px;
+    width:20px;
+    padding:-2px;
+}
+.media2 img{
+    height:20px;
+    width:20px;
+    padding:-2px;
+}
+.media3{
+    grid-column-start:1;
+    grid-column-end:1;
+    border:1px;
+    color:lightslategray;
+    font:bold;
+    
+}
+.media4{
+    grid-column-start:2;
+grid-column-end:2;
+border:1px;
+color:lightslategray;
+font:bold;
+
+}
+.media3 img{
+    height:20px;
+    width:20px;
+    padding:-2px;
+}
+.media4 img{
+    height:20px;
+    width:20px;
+    padding:-2px;
+}
+.media-links img{
+    width:20px;
+    height:20px;
+    padding:5px;
+}
+.container{
+    width:100%;
+    max-width:1200px;
+    
+}
+.contacts-box{
+    border:1px;
+    border-style:solid;
+    border-color:lightslategray;
+    float:right;
+    border-radius:10px;
+    display:flexbox;
+    padding:10px;
+   
+}
+
+.contact-box a{
+    text-decoration:none;
+    display:block;
+    margin-top:10px;
+    border-style:1px soild lightslategray;
+    padding:8px;
+    border-radius:5px;
+    
+}
+
+.contacts-box img{
+    height:20px;
+    width:20px;
+}
